@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f06d009-405f-4a51-8725-5d980b74b592" name="Default Changelist" comment="создал отдельный класс Contact">
+    <list default="true" id="7f06d009-405f-4a51-8725-5d980b74b592" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_add_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_add_contact.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,29 +26,29 @@
           <entry key="LICENSE" value="1" />
           <entry key="gitignore" value="2" />
           <entry key="md" value="1" />
-          <entry key="py" value="9" />
+          <entry key="py" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="9" />
+          <entry key="Python" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
           <entry key="md" value="17" />
-          <entry key="py" value="1171" />
-          <entry key="txt" value="499" />
+          <entry key="py" value="1456" />
+          <entry key="txt" value="563" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="17" />
-          <entry key="PLAIN_TEXT" value="504" />
-          <entry key="Python" value="1171" />
+          <entry key="PLAIN_TEXT" value="568" />
+          <entry key="Python" value="1456" />
         </counts>
       </usages-collector>
     </session>
@@ -60,13 +61,25 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_add_contact.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="63" column="8" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
+            <state relative-caret-position="323">
+              <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
               <folding>
-                <element signature="e#24#54#0" expanded="true" />
-                <marker date="1540460923635" expanded="true" signature="974:2199" ph="..." />
-                <marker date="1540460923635" expanded="true" signature="2408:2417" ph="..." />
-                <marker date="1540460923635" expanded="true" signature="2756:2765" ph="..." />
+                <element signature="e#25#38#0" expanded="true" />
+                <marker date="1540462981532" expanded="true" signature="137:227" ph="..." />
+                <marker date="1540462981532" expanded="true" signature="255:260" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="40" lean-forward="true" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+              <folding>
+                <marker date="1540462143380" expanded="true" signature="51:52" ph="..." />
+                <marker date="1540462143380" expanded="true" signature="51:57" ph="..." />
               </folding>
             </state>
           </provider>
@@ -126,6 +139,7 @@
         <option value="$PROJECT_DIR$/test_add_group.py" />
         <option value="$PROJECT_DIR$/add_contact.py" />
         <option value="$PROJECT_DIR$/contact.py" />
+        <option value="$PROJECT_DIR$/application.py" />
         <option value="$PROJECT_DIR$/test_add_contact.py" />
       </list>
     </option>
@@ -319,19 +333,17 @@
       <option name="project" value="LOCAL" />
       <updated>1540457087426</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="переместил переходы по страница в высокоуровневые&#10;методы">
+      <created>1540461108882</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1540461108882</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_add_group_py - 2018.10.25 at 14h 22m 21s.xml">
-      <configuration name="pytest in test_add_group.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_add_contact_py - 2018.10.25 at 14h 51m 34s.xml">
-      <configuration name="pytest in test_add_contact.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_add_contact_py - 2018.10.25 at 15h 32m 34s.xml">
-      <configuration name="pytest in test_add_contact.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_test_add_contact_py - 2018.10.25 at 15h 33m 26s.xml">
       <configuration name="pytest in test_add_contact.py" configurationId="tests" />
     </history-entry>
@@ -351,6 +363,15 @@
       <configuration name="pytest in test_add_contact.py" configurationId="tests" />
     </history-entry>
     <history-entry file="pytest_in_test_add_contact_py - 2018.10.25 at 15h 44m 27s.xml">
+      <configuration name="pytest in test_add_contact.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_add_contact_py - 2018.10.25 at 16h 50m 24s.xml">
+      <configuration name="pytest in test_add_contact.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_add_contact_py - 2018.10.25 at 17h 03m 42s.xml">
+      <configuration name="pytest in test_add_contact.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_add_contact_py - 2018.10.25 at 17h 23m 12s.xml">
       <configuration name="pytest in test_add_contact.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -423,7 +444,8 @@
     <MESSAGE value="add_group run by py.test&#10;переименовал test_add_contact&#10;убрал лишние строки в test_add_contact&#10;раскомментировал тест test_add_contact" />
     <MESSAGE value="создал вспомогательные методы&#10;оптимизировал метод создания нового контакта&#10;передал параметры в методы&#10;создал отдельный класс Contact" />
     <MESSAGE value="создал отдельный класс Contact" />
-    <option name="LAST_COMMIT_MESSAGE" value="создал отдельный класс Contact" />
+    <MESSAGE value="переместил переходы по страница в высокоуровневые&#10;методы" />
+    <option name="LAST_COMMIT_MESSAGE" value="переместил переходы по страница в высокоуровневые&#10;методы" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/LICENSE">
@@ -494,15 +516,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="40" lean-forward="true" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+          <folding>
+            <marker date="1540462143380" expanded="true" signature="51:52" ph="..." />
+            <marker date="1540462143380" expanded="true" signature="51:57" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test_add_contact.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="63" column="8" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
+        <state relative-caret-position="323">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
           <folding>
-            <element signature="e#24#54#0" expanded="true" />
-            <marker date="1540460923635" expanded="true" signature="974:2199" ph="..." />
-            <marker date="1540460923635" expanded="true" signature="2408:2417" ph="..." />
-            <marker date="1540460923635" expanded="true" signature="2756:2765" ph="..." />
+            <element signature="e#25#38#0" expanded="true" />
+            <marker date="1540462981532" expanded="true" signature="137:227" ph="..." />
+            <marker date="1540462981532" expanded="true" signature="255:260" ph="..." />
           </folding>
         </state>
       </provider>
