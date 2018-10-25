@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7f06d009-405f-4a51-8725-5d980b74b592" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_add_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_add_contact.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,13 +40,13 @@
           <entry key="dummy" value="5" />
           <entry key="md" value="17" />
           <entry key="py" value="1159" />
-          <entry key="txt" value="328" />
+          <entry key="txt" value="497" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="17" />
-          <entry key="PLAIN_TEXT" value="333" />
+          <entry key="PLAIN_TEXT" value="502" />
           <entry key="Python" value="1159" />
         </counts>
       </usages-collector>
@@ -61,13 +60,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_add_contact.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-102">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="340">
+              <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
               <folding>
                 <element signature="e#24#54#0" expanded="true" />
-                <marker date="1540456515452" expanded="true" signature="942:2167" ph="..." />
-                <marker date="1540456515452" expanded="true" signature="2376:2385" ph="..." />
-                <marker date="1540456515452" expanded="true" signature="2785:2794" ph="..." />
+                <marker date="1540456842365" expanded="true" signature="942:2167" ph="..." />
+                <marker date="1540456842365" expanded="true" signature="2376:2385" ph="..." />
+                <marker date="1540456842365" expanded="true" signature="2789:2798" ph="..." />
               </folding>
             </state>
           </provider>
@@ -306,16 +305,17 @@
       <option name="project" value="LOCAL" />
       <updated>1540452880484</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="создал вспомогательные методы&#10;оптимизировал метод создания нового контакта&#10;передал параметры в методы&#10;создал отдельный класс Contact">
+      <created>1540457051215</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1540457051215</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_add_contact_py - 2018.10.25 at 13h 38m 17s.xml">
-      <configuration name="pytest in add_contact.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_add_group_py - 2018.10.25 at 14h 03m 34s.xml">
-      <configuration name="pytest in test_add_group.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_test_add_group_py - 2018.10.25 at 14h 04m 12s.xml">
       <configuration name="pytest in test_add_group.py" configurationId="tests" />
     </history-entry>
@@ -338,6 +338,12 @@
       <configuration name="pytest in test_add_contact.py" configurationId="tests" />
     </history-entry>
     <history-entry file="pytest_in_test_add_contact_py - 2018.10.25 at 15h 35m 21s.xml">
+      <configuration name="pytest in test_add_contact.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_add_contact_py - 2018.10.25 at 15h 40m 08s.xml">
+      <configuration name="pytest in test_add_contact.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_add_contact_py - 2018.10.25 at 15h 40m 49s.xml">
       <configuration name="pytest in test_add_contact.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -408,7 +414,8 @@
     <MESSAGE value="Создан проект PyCharm" />
     <MESSAGE value="добавил тест создания контакта, удалили лишние строки, заменил переменную WD" />
     <MESSAGE value="add_group run by py.test&#10;переименовал test_add_contact&#10;убрал лишние строки в test_add_contact&#10;раскомментировал тест test_add_contact" />
-    <option name="LAST_COMMIT_MESSAGE" value="add_group run by py.test&#10;переименовал test_add_contact&#10;убрал лишние строки в test_add_contact&#10;раскомментировал тест test_add_contact" />
+    <MESSAGE value="создал вспомогательные методы&#10;оптимизировал метод создания нового контакта&#10;передал параметры в методы&#10;создал отдельный класс Contact" />
+    <option name="LAST_COMMIT_MESSAGE" value="создал вспомогательные методы&#10;оптимизировал метод создания нового контакта&#10;передал параметры в методы&#10;создал отдельный класс Contact" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/LICENSE">
@@ -481,13 +488,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_add_contact.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="340">
+          <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
           <folding>
             <element signature="e#24#54#0" expanded="true" />
-            <marker date="1540456515452" expanded="true" signature="942:2167" ph="..." />
-            <marker date="1540456515452" expanded="true" signature="2376:2385" ph="..." />
-            <marker date="1540456515452" expanded="true" signature="2785:2794" ph="..." />
+            <marker date="1540456842365" expanded="true" signature="942:2167" ph="..." />
+            <marker date="1540456842365" expanded="true" signature="2376:2385" ph="..." />
+            <marker date="1540456842365" expanded="true" signature="2789:2798" ph="..." />
           </folding>
         </state>
       </provider>
