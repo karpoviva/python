@@ -1,4 +1,4 @@
-
+import time
 
 
 class ContactHelper:
@@ -35,11 +35,13 @@ class ContactHelper:
 
     def delete_first_contact(self):
         wd = self.app.wd
+        self.return_home_page()
         # select first contact
         wd.find_element_by_name("selected[]").click()
         # submit deletion
         wd.find_element_by_xpath("//input[@type='button'][@value='Delete']").click()
         wd.switch_to_alert().accept()
+        self.return_home_page()
 
     def return_home_page(self):
         wd = self.app.wd
