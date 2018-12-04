@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f06d009-405f-4a51-8725-5d980b74b592" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/group.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/session.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/session.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/group.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_modify_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_modify_group.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,15 +41,15 @@
         <counts>
           <entry key="dummy" value="5" />
           <entry key="md" value="17" />
-          <entry key="py" value="3388" />
-          <entry key="txt" value="1066" />
+          <entry key="py" value="3397" />
+          <entry key="txt" value="1144" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="17" />
-          <entry key="PLAIN_TEXT" value="1071" />
-          <entry key="Python" value="3388" />
+          <entry key="PLAIN_TEXT" value="1149" />
+          <entry key="Python" value="3397" />
         </counts>
       </usages-collector>
     </session>
@@ -76,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test_modify_group.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="12" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -97,8 +93,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fixture/group.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="62" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="528">
+              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
               <folding>
                 <marker date="1543551470593" expanded="true" signature="1510:1875" ph="..." />
               </folding>
@@ -106,11 +102,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_add_group.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            <state relative-caret-position="289">
+              <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
               <folding>
                 <marker date="1543486821834" expanded="true" signature="57:58" ph="..." />
                 <marker date="1543486821834" expanded="true" signature="332:333" ph="..." />
@@ -271,7 +267,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_add_group.py">
+  <component name="RunManager" selected="Python tests.pytest in test_modify_group.py">
     <configuration name="test_add_group" type="PythonConfigurationType" factoryName="Python">
       <module name="python_trening" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -393,8 +389,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_add_group.py" />
         <item itemvalue="Python tests.pytest in test_modify_group.py" />
+        <item itemvalue="Python tests.pytest in test_add_group.py" />
         <item itemvalue="Python tests.pytest in test" />
         <item itemvalue="Python tests.pytest in test_del_contact.py" />
         <item itemvalue="Python tests.pytest in test_add_contact.py" />
@@ -545,7 +541,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543398855224</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Оптимизация ввода данных. Использование конструкции if..else">
+      <created>1543915086227</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1543915086227</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -594,7 +597,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.5014749" side_tool="true" weight="0.17913593" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49852508" visible="true" weight="0.17913593" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49852508" visible="true" weight="0.17913593" />
       <window_info id="Structure" order="2" sideWeight="0.5014749" side_tool="true" weight="0.17913593" />
       <window_info anchor="bottom" id="Version Control" order="0" sideWeight="0.4992658" weight="0.32917964" />
       <window_info anchor="bottom" id="Python Console" order="1" sideWeight="0.49853158" weight="0.32917964" />
@@ -606,7 +609,7 @@
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" sideWeight="0.49779737" weight="0.32917964" />
-      <window_info active="true" anchor="bottom" x="1927" y="502" width="1898" height="285" id="Run" order="10" sideWeight="0.49525815" visible="true" weight="0.29595014" />
+      <window_info anchor="bottom" x="1927" y="502" width="1898" height="285" id="Run" order="10" sideWeight="0.49525815" visible="true" weight="0.29595014" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -660,18 +663,8 @@
     <MESSAGE value="Создал общий конфигурационный файл с вызовом фикстуры.&#10;сделал тест удаления первой группы в списке." />
     <MESSAGE value="Создал общий конфигурационный файл с вызовом фикстуры.&#10;Сделал тест удаления первой группы в списке.&#10;Сделал прогон всех тестов в одной сессии." />
     <MESSAGE value="Создал тест удаления первого в списке контакта" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создал тест удаления первого в списке контакта" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/fixture/group.py</url>
-          <line>62</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Оптимизация ввода данных. Использование конструкции if..else" />
+    <option name="LAST_COMMIT_MESSAGE" value="Оптимизация ввода данных. Использование конструкции if..else" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/LICENSE">
@@ -800,13 +793,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_modify_group.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/env/Lib/site-packages/_pytest/python.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
@@ -835,25 +821,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_add_group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding>
+            <marker date="1543486821834" expanded="true" signature="57:58" ph="..." />
+            <marker date="1543486821834" expanded="true" signature="332:333" ph="..." />
+            <marker date="1543486821834" expanded="true" signature="332:337" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/fixture/group.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="528">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
           <folding>
             <marker date="1543551470593" expanded="true" signature="1510:1875" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_add_group.py">
+    <entry file="file://$PROJECT_DIR$/test/test_modify_group.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding>
-            <marker date="1543486821834" expanded="true" signature="57:58" ph="..." />
-            <marker date="1543486821834" expanded="true" signature="332:333" ph="..." />
-            <marker date="1543486821834" expanded="true" signature="332:337" ph="..." />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="12" selection-end-column="26" />
         </state>
       </provider>
     </entry>
