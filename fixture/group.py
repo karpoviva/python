@@ -23,6 +23,7 @@ class GroupHelper:
         self.fill_group_form(group)
         # submit group creation
         wd.find_element_by_name("submit").click()
+        self.return_to_group_page()
 
     def change_field_value(self, field_name, text):
         wd = self.app.wd
