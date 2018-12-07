@@ -10,27 +10,27 @@ class ContactHelper:
         # init_contact_creation
         wd.find_element_by_link_text("add new").click()
         # fill_contact_form
-        wd.find_element_by_name("firstname").click()
-        wd.find_element_by_name("firstname").clear()
-        wd.find_element_by_name("firstname").send_keys(contact.fname)
-        wd.find_element_by_name("middlename").click()
-        wd.find_element_by_name("middlename").clear()
-        wd.find_element_by_name("middlename").send_keys(contact.sname)
-        wd.find_element_by_name("lastname").click()
-        wd.find_element_by_name("lastname").clear()
-        wd.find_element_by_name("lastname").send_keys(contact.lname)
-        wd.find_element_by_name("address").click()
-        wd.find_element_by_name("address").clear()
-        wd.find_element_by_name("address").send_keys(contact.address)
-        wd.find_element_by_name("email").click()
-        wd.find_element_by_name("email").clear()
-        wd.find_element_by_name("email").send_keys(contact.email)
-        wd.find_element_by_name("mobile").click()
-        wd.find_element_by_name("mobile").clear()
-        wd.find_element_by_name("mobile").send_keys(contact.tel)
+        self.fill_contact_form(contact)
         # submit_new_contact_creation
         wd.find_element_by_xpath("(//input[@name='submit'])[2]").click()
         self.return_home_page()
+
+    def change_field_value(self, field_name, text):
+        wd = self.app.wd
+        if text is not None:
+            wd.find_element_by_name(field_name).click()
+            wd.find_element_by_name(field_name).clear()
+            wd.find_element_by_name(field_name).send_keys(text)
+
+
+    def fill_contact_form(self, contact):
+        wd = self.app.wd
+        self.change_field_value("firstname", contact.fname)
+        self.change_field_value("middlename", contact.sname)
+        self.change_field_value("lastname", contact.lname)
+        self.change_field_value("address", contact.address)
+        self.change_field_value("email", contact.email)
+        self.change_field_value("mobile", contact.tel)
 
     def delete_first_contact(self):
         wd = self.app.wd
@@ -45,3 +45,8 @@ class ContactHelper:
     def return_home_page(self):
         wd = self.app.wd
         wd.find_element_by_link_text("home").click()
+
+    def count_contact(self):
+        wd = self.app.wd
+        self.return_home_page()
+        return len(wd.find_elements_by_name("selected[]"))
